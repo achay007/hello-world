@@ -6,9 +6,6 @@ export default async function ProductReview({ params }:
     if (Number(reviewId) > 89) {
         notFound();
     }
-
-
-
   return (
     <div>
       <p>Review {reviewId} content for product {productId}  goes here...</p>
